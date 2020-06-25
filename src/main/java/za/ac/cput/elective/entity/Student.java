@@ -3,6 +3,7 @@ package za.ac.cput.elective.entity;
 public class Student {
     private int year;
     private String stream;
+    private int studentID;
 
 
     private Student(Builder b) {
