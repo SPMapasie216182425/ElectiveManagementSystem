@@ -13,6 +13,7 @@ public class Elective {
         this.electCode = b.electCode;
         this.electDesc = b.electDesc;
     }
+
     //getters
     public String getElectName() {
         return electName;
@@ -25,6 +26,7 @@ public class Elective {
     public String getElectDesc() {
         return electDesc;
     }
+
     //toString Method
     @Override
     public String toString() {
@@ -34,6 +36,7 @@ public class Elective {
                 ", Elective Description='" + electDesc + '\'' +
                 '}';
     }
+
     public static class Builder {
 
         private String electName;
