@@ -5,7 +5,7 @@ public class Faculty {
     private int facultyID;
     private String facultyName;
 
-    private Faculty(Builder builder){
+    private Faculty(Builder builder) {
         this.facultyID = builder.facultyID;
         this.facultyName = builder.facultyName;
     }
@@ -15,19 +15,20 @@ public class Faculty {
         private int facultyID;
         private String facultyName;
 
-        private Builder() {}
+        private Builder() {
+        }
 
-        public Builder setFacultyID(int facultyID){
+        public Builder setFacultyID(int facultyID) {
             this.facultyID = facultyID;
             return this;
         }
 
-        public Builder setFacultyName(String facultyName){
+        public Builder setFacultyName(String facultyName) {
             this.facultyName = facultyName;
             return this;
         }
 
-        public Faculty build(){
+        public Faculty build() {
             return new Faculty(this);
         }
     }
@@ -40,12 +41,12 @@ public class Faculty {
         return facultyName;
     }
 
-    public void CheckRegStatus(long electCode){
+    public void CheckRegStatus(long electCode) {
         /*
-        * if electCode matches the room num then
-        * assign student to room, else
-        * change faculty and room
-        */
+         * if electCode matches the room num then
+         * assign student to room, else
+         * change faculty and room
+         */
     }
 
     @Override
