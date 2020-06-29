@@ -63,8 +63,8 @@ public class Room {
     @Override
     public String toString() {
         return "Room{" +
-                "Room number=" + roomNum +
-                ", Room number seats='" + roomNumSeats + '\'' +
+                "Room number =" + roomNum +
+                ", Room number seats ='" + roomNumSeats + '\'' +
                 '}';
     }
 
