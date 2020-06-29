@@ -5,10 +5,12 @@ public class Room {
     private int roomNumSeats;
 
 
+
     private  Room (Room builder){
         this.roomNum = builder.roomNum;
         this.roomNumSeats = builder.roomNumSeats;
     }
+
 
 
     public String getRoomNum(){
@@ -19,14 +21,6 @@ public class Room {
         return roomNumSeats;
     }
 
-
-    @Override
-    public String toString() {
-        return "Room{" +
-                "Room number=" + roomNum +
-                ", Room number seats='" + roomNumSeats + '\'' +
-                '}';
-    }
 
 
     public static class Builder{
@@ -41,6 +35,8 @@ public class Room {
         this.roomNum = roomNum;
         return this;
     }
+
+
     public Room setRoomNumSeats (int roomNumSeats) {
         this.roomNumSeats = roomNumSeats;
         return this;
@@ -64,5 +60,12 @@ public class Room {
 
     }
 
-}
+    @Override
+    public String toString() {
+        return "Room{" +
+                "Room number =" + roomNum +
+                ", Room number seats ='" + roomNumSeats + '\'' +
+                '}';
+    }
 
+}
