@@ -70,12 +70,5 @@ public class Student {
             return new Student(this);
         }
 
-        public void chooseElective() {
-
-        }
-
-        public void cancelElective() {
-            //test
-        }
     }
 }
