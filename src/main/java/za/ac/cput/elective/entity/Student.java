@@ -1,5 +1,9 @@
 package za.ac.cput.elective.entity;
 
+/* Student class
+Author: Sean Trainor 218060033
+ */
+
 public class Student {
     private int year;
     private String stream;
