@@ -1,5 +1,9 @@
 package za.ac.cput.elective.entity;
-
+/**
+* @author @ShanePhumlaniMapasie
+* Desc: Entity for Elective
+* Date: 2020/06/22
+**/
 public class Elective {
 
     /* Encapsulation */
